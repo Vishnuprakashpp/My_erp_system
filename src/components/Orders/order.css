@@ -1,0 +1,98 @@
+/* Order List Styles */
+
+.order-list {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('C:\Users\vishnuprakash.p\erp-system\src\Article-9_Types-of-ERP-systems-1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.order-list h2 {
+  background-color: rgba(144, 238, 144, 0.3);
+padding: 10px; 
+border-radius: 5px; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+margin-top: 20px; 
+text-align: center; 
+text-transform: capitalize; 
+font-family: 'Open Sans', Arial, sans-serif; 
+margin-bottom: 20px; 
+
+color: #000000; 
+font-size: 24px; 
+text-transform: uppercase; 
+}
+
+
+.order-list table {
+  width: 100%;
+  border-radius: 8px;
+  border-collapse: separate; 
+  border-spacing: 0 0px; 
+  margin-top: 10px; 
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 15px; 
+  text-align: left;
+  background-color: #fff;
+}
+
+th {
+  background-color: #eaeaea;
+  color: #333333;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 15px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  margin-bottom: 20px;
+  padding: 20px; 
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.button3 {
+  padding: 8px 16px;
+  background-color: #d11717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button2 {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button1 {
+  padding: 8px 16px;
+  background-color: #158fda;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

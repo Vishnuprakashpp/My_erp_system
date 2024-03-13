@@ -1,0 +1,66 @@
+/* Custom styles for the calendar */
+.react-calendar {
+  max-width: 400px;
+  background-color: rgba(144, 238, 144, 0.3);
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.05em; 
+}
+
+.react-calendar__tile {
+  padding: 0.5em;
+  text-align: center; 
+}
+
+.selected-date-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.selected-date-info-card {
+  background-color: #ce6767;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(4, 4, 4, 0.1);
+  text-align: center; 
+}
+
+.selected-date-info.green-text {
+  color: #4CAF50; 
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--hover {
+  background-color: #666;
+}
+
+.react-calendar__navigation {
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.react-calendar__navigation button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.react-calendar__navigation button:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.react-calendar__navigation button:disabled {
+  color: #ccc;
+}

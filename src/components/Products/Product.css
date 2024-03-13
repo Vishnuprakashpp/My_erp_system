@@ -1,0 +1,119 @@
+/* Product.css */
+
+.product-list {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('C:\Users\vishnuprakash.p\erp-system\src\Article-9_Types-of-ERP-systems-1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-list h2 { background-color: rgba(144, 238, 144, 0.3);
+padding: 10px; 
+border-radius: 5px; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+margin-top: 20px;
+text-align: center; 
+text-transform: capitalize; 
+font-family: 'Open Sans', Arial, sans-serif; 
+margin-bottom: 20px; 
+
+color: #050505; 
+font-size: 24px;
+text-transform: uppercase; 
+}
+
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+ 
+}
+
+.product-list th, .product-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.product-list th {
+  background-color: #eaeaea;
+  color: #333333;
+}
+
+
+.button1 {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button0 {
+  padding: 8px 16px;
+  background-color: #d11717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button4 {
+  padding: 8px 16px;
+  background-color: #158fda;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .product-list {
+    padding: 20px;
+  }
+  
+  .product-list .add-product-form {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-list table {
+    font-size: 14px;
+  }
+
+  .product-list th, .product-list td {
+    padding: 10px;
+  }
+
+  .product-list .add-product-form {
+    margin-top: 10px;
+  
+  }
+
+  .product-list input[type="text"],
+  .product-list input[type="number"],
+  .product-list button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 18px;
+    box-sizing: border-box;
+  }
+}
